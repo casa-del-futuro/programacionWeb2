@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./styles/globals.css">
+    <title>Leonardo Avila</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="">
+        <nav>
+            <ul class="nav-ul">
+                <li>HOME</li>
+                <li>SERVICE</li>
+                <li>ABOUT</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="bg1">
+            <section class="banner">
+                <div class="banner-info">
+                    <h2 class="title">LEONARDO AVILA</h2>
+                    <p>Sumérgete en nuestro mundo gaming con servicios de streaming, video guías y coaching
+                        personalizado. Además, optimizamos tus juegos y sistemas operativos para una experiencia única.
+                        Eleva tu juego con nosotros.</p>
+
+                    <a class="fancy" href="#">
+                        <span class="top-key"></span>
+                        <span class="text">¡Eleva tu juego con nosotros!</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                    </a>
+
+
+                </div>
+                <div class="banner-image">
+                    <img src="./images/icons/controller.png" alt="Icono mando ps4">
+                </div>
+            </section>
+
+        </div>
+        <section class="carrousel">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/banner/cs-go.jpg" alt="cs go">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner/lol.webp" alt="lol">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner/rocket-league.jpg" alt="rocket league">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner/the-forest.jpg" alt="the forest">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/banner/rust.webp" alt="rust">
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <div class="bg">
+
+            <section class="services">
+                <article class="service">
+                    <img src="./images/icons/gaming.png" alt="Icon gaming computer">
+                    <div>
+                        <h2>Gaming en Vivo con Coaching</h2>
+                        <p>Eleva tu experiencia de juego con transmisiones en vivo, coaching personalizado y acceso
+                            exclusivo a video guías.</p>
+                    </div>
+                </article>
+                <article class="service">
+                    <img src="./images/icons/computer-mouse.png" alt="Icon gaming mouse">
+                    <div>
+                        <h2>Live Coding de Programación</h2>
+                        <p>Aprende y participa en tiempo real mientras nuestros programadores abordan desafíos de
+                            coding.</p>
+                    </div>
+                </article>
+                <article class="service">
+                    <img src="./images/icons/gaming-chair.png" alt="Icon gaming chair">
+                    <div>
+                        <h2>Optimización de Juegos y Sistemas Operativos</h2>
+                        <p>Descubre trucos en directo para optimizar tus juegos y sistemas operativos.</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <section class="about">
+            <div class="about-img">
+                <img src="./images/blobs/programador.jpg" alt="Foto Leo programando">
+            </div>
+            <div class="about-info">
+                <h2>¿QUÍEN SOY?</h2>
+                <div>
+                    <p> Soy <strong>LEONARDO AVILA</strong>, apasionado del mundo de los videojuegos y creador de contenido en constante
+                        búsqueda de la excelencia. En mis streams, fusiono entretenimiento y habilidad para ofrecerte una
+                        experiencia única. Únete a la comunidad, sumérgete en live coding, partidas épicas, aprende trucos exclusivos y
+                        comparte la emoción del gaming conmigo.
+                    </p>
+                    <h3>¡Te espero en cada transmisión para vivir momentos inolvidables! 🎮✨</h3>
+                </div>
+                <a class="fancy" href="#">
+                    <span class="top-key"></span>
+                    <span class="text">¡NOS VEMOS EN VIVO!</span>
+                    <span class="bottom-key-1"></span>
+                    <span class="bottom-key-2"></span>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        rewind: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 1000,
+            disableOnInteraction: false,
+        },
+    });
+</script>
+
+</html>

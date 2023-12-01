@@ -1,0 +1,51 @@
+/* ESTILOS GLOBALES */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #09f;
+}
+
+button{
+    background-color: green;
+    border: blue dashed 5px;
+    padding: 20px;
+    color: white;
+}
+
+
+.cuadrado{
+    height: 120px;
+    width: 120px;
+    background-color: red;
+    border: yellow groove 6px;
+}
+
+.circulo{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.circulo:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

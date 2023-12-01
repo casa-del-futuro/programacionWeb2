@@ -1,0 +1,111 @@
+.about {
+    background-color: var(--color-primario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 88px 64px;
+    background-image: url(../images/bg2.png);
+    background-size: cover;
+}
+
+.about-img {
+    background-image: url(../images/blobs/5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    max-width: 400px;
+    filter: drop-shadow(0 0 8px var(--drop-shadow));
+}
+
+.about-img img {
+    width: 100%;
+    filter: drop-shadow(0 0 8px var(--drop-shadow));
+    transition: all 1s;
+}
+
+.about-img img:hover{
+    animation: surprise 1s ;
+}
+
+.about-info {
+    width: 60%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.about-info h2 {
+    font-size: 40px;
+    align-self: flex-end;
+}
+
+.about-info strong {
+    color: var(--color-bg);
+    font-size: 30px;
+}
+
+
+.about .fancy {
+    background-color: var(--color-bg);
+    align-self: flex-end;
+}
+
+.about .fancy:hover {
+    color: var(--color-bg);
+    background-color: var(--color-font);
+    border-color: var(--color-bg);
+}
+
+
+/* ANIMACION */
+
+
+
+@keyframes surprise {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    10% {
+        transform: rotate(7deg) scale(1.2);
+    }
+
+    20% {
+        transform: rotate(-7deg) scale(1.2);
+    }
+
+    30% {
+        transform: rotate(7deg) scale(1.2);
+    }
+
+    40% {
+        transform: rotate(-7deg) scale(1.2);
+    }
+
+    50% {
+        transform: rotate(7deg) scale(1.2);
+    }
+
+    60% {
+        transform: rotate(-7deg) scale(1.2);
+    }
+
+    70% {
+        transform: rotate(7deg) scale(1.2);
+    }
+
+    80% {
+        transform: rotate(-7deg) scale(1.2);
+    }
+
+    90% {
+        transform: rotate(7deg) scale(1.2);
+    }
+
+    100% {
+        transform: rotate(0deg) scale(1, 1);
+    }
+}
