@@ -30,16 +30,15 @@ a{
 }
 
 h1{
-    font-size: 24px;
+    font-size: calc(1em + 1vw)
 }
+
 h2{
-    font-size: 20px;
+    font-size: calc(0.8em + 1vw)
 }
+
 h3, p{
-    font-size: 18px;
-}
-h4{
-    font-size: 14px;
+    font-size: calc(0.4em + 1vw)
 }
 
 :root{

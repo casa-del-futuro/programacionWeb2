@@ -5,6 +5,7 @@
     width: 70%;
     gap: 32px;
     margin: 16px auto;
+    padding: 64px 0px;
 }
 
 .banner-info{
@@ -43,3 +44,19 @@
     width: 50%;
 }
 
+@media (max-width: 1100px) {
+    .banner-image{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (max-width: 800px) {
+    .banner{
+        flex-direction: column;
+        margin: unset;
+        width: 100%;
+    }
+    .banner-info{
+        width: 90%;
+    }
+}
